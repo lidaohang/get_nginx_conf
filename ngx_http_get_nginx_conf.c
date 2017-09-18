@@ -1,3 +1,9 @@
+#include <yajl/yajl_gen.h>
+#include <yajl/yajl_tree.h>
+
+
+
+
 static void
 ngx_http_lua_conf_get_static_locations(yajl_gen g, ngx_http_location_tree_node_t *node)
 {
