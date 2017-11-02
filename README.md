@@ -1,5 +1,31 @@
 # 获取nginx配置文件格式化信息
 
+
+1. 精确匹配的路径 location = /{}
+(exact_match = 1 )
+
+2. 抢占式前缀匹配的路径 location ^~ /{}
+(noregex = 1)
+
+3. 命名路径，比如location @a {}
+(named = 1)
+
+
+4. 普通前端匹配的路径，例如location / {}
+
+
+5. 无名路径，比如if {}或者limit_except {}生成的路径
+noname = 1
+
+
+
+
+
+
+
+
+
+
 ```
 {
     "http":{
