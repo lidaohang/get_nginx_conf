@@ -31,7 +31,7 @@ noname = 1
     "http":{
         "servers":[
             {
-                "server_name":"www.didichuxing.com",
+                "server_name":"www.baidu.com",
                 "port":80,
                 "locations":[
                     {
@@ -52,7 +52,7 @@ noname = 1
                 ]
             },
             {
-                "server_name":"www.udache.com",
+                "server_name":"www.qq.com",
                 "port":80,
                 "locations":[
                     {
